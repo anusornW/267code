@@ -1,5 +1,5 @@
 #include <stdio.h>
-//prototype
+//Functions prototyping
 float InputDouble (void);
 float SumDouble ( float , float  );
 void PrintOut ( float );
@@ -13,7 +13,7 @@ int main ( ) {
 	PrintOut ( sumVal );
 	return 0;
 }
-
+//Functions Declaration
 float InputDouble ( ) {
 	float x;
 	printf ( "\nInput real value : " );
